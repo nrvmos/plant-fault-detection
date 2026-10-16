@@ -1,0 +1,53 @@
+tag,name,suggested_low,suggested_high,nuisance_alarms_per_shift_in_history,upsets_fired_in,keep_alarm
+XMEAS(1),A feed,0.1511,0.3549,0.00,4,yes
+XMEAS(2),D feed,3545,3774,0.00,4,yes
+XMEAS(3),E feed,4379,4641,0.00,4,yes
+XMEAS(4),A and C feed,9.055,9.626,0.00,3,yes
+XMEAS(5),Recycle flow,25.91,27.72,0.00,0,no
+XMEAS(6),Reactor feed rate,41.56,43.12,0.00,3,yes
+XMEAS(7),Reactor pressure,2682,2724,0.00,5,yes
+XMEAS(8),Reactor level,73.22,76.91,0.00,3,yes
+XMEAS(9),Reactor temperature,120.3,120.5,0.08,3,yes
+XMEAS(10),Purge rate,0.2904,0.3783,0.00,4,yes
+XMEAS(11),Separator temperature,79.39,80.83,0.00,6,yes
+XMEAS(12),Separator level,46.29,53.5,0.08,0,no
+XMEAS(13),Separator pressure,2610,2653,0.00,5,yes
+XMEAS(14),Separator underflow,21.23,28.8,0.00,0,no
+XMEAS(15),Stripper level,46.31,53.49,0.00,0,no
+XMEAS(16),Stripper pressure,3082,3120,0.00,5,yes
+XMEAS(17),Stripper underflow,20.65,25.1,0.00,1,no
+XMEAS(18),Stripper temperature,64.45,67,0.00,4,yes
+XMEAS(19),Stripper steam flow,199.9,261.6,0.00,4,yes
+XMEAS(20),Compressor work,337.1,346.4,0.08,6,yes
+XMEAS(21),Reactor cooling water outlet temp,94.15,95.04,0.00,7,yes
+XMEAS(22),Separator cooling water outlet temp,76.35,78.24,0.08,6,yes
+XMEAS(23),Reactor feed analysis A,31.24,33.11,0.00,4,yes
+XMEAS(24),Reactor feed analysis B,8.534,9.278,0.00,3,yes
+XMEAS(25),Reactor feed analysis C,25.36,27.41,0.00,4,yes
+XMEAS(26),Reactor feed analysis D,6.529,7.271,0.00,3,yes
+XMEAS(27),Reactor feed analysis E,17.76,19.72,0.00,4,yes
+XMEAS(28),Reactor feed analysis F,1.567,1.739,0.00,2,yes
+XMEAS(29),Purge gas analysis A,31.88,33.97,0.00,5,yes
+XMEAS(30),Purge gas analysis B,13.39,14.2,0.00,4,yes
+XMEAS(31),Purge gas analysis C,22.74,25.16,0.00,3,yes
+XMEAS(32),Purge gas analysis D,0.9289,1.645,0.08,2,yes
+XMEAS(33),Purge gas analysis E,17.47,19.62,0.00,4,yes
+XMEAS(34),Purge gas analysis F,2.176,2.363,0.00,3,yes
+XMEAS(35),Purge gas analysis G,4.59,5.066,0.00,4,yes
+XMEAS(36),Purge gas analysis H,2.112,2.475,0.00,5,yes
+XMEAS(37),Product analysis D,-0.0152,0.05036,0.00,0,no
+XMEAS(38),Product analysis E,0.786,0.8807,0.00,6,yes
+XMEAS(39),Product analysis F,0.06203,0.1367,0.00,0,no
+XMEAS(40),Product analysis G,52.07,55.48,0.00,0,no
+XMEAS(41),Product analysis H,41.86,45.77,0.00,1,no
+XMV(1),D feed valve,60.81,65.18,0.00,2,yes
+XMV(2),E feed valve,52.29,55.41,0.00,4,yes
+XMV(3),A feed valve,14.68,34.45,0.00,4,yes
+XMV(4),A and C feed valve,57.02,65.73,0.16,4,yes
+XMV(5),Compressor recycle valve,20.67,23.87,0.08,6,yes
+XMV(6),Purge valve,34.66,45.19,0.00,4,yes
+XMV(7),Separator liquid valve,27.19,48.4,0.08,0,no
+XMV(8),Stripper product valve,37.98,54.62,0.00,0,no
+XMV(9),Stripper steam valve,39.69,55.5,0.00,4,yes
+XMV(10),Reactor cooling water valve,39.14,43.06,0.08,6,yes
+XMV(11),Condenser cooling water valve,13.07,23.52,0.00,1,no

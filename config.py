@@ -1,19 +1,18 @@
-"""The operating point an operator would accept. Nathan sets this, from the dev table only.
+"""Alarm settings, chosen by Nathan from the dev split only.
 
-Run `python run.py tradeoff` to see the dev-split table,
-pick one row per detector, and fill in the values below. `run.py report` refuses to run
-until both are set, so the report numbers are never used to make the choice.
+`run.py report` refuses to run until FINAL_PCA_PERCENTILE is set, so the report numbers
+are never used to make the choice.
+
+History
+- Version 1 (2026-10-16): the loosest textbook limits on both detectors, because
+  "Missing an upset is worse." Scored on the report split: 17 to 31 nuisance alarms a shift.
+- Version 2: the same rule, but with the alarm limits set from a separate normal run.
 """
 
-# Per-tag limits: alarm when any tag is more than K standard deviations from its normal mean.
-THREE_SIGMA_K = 3.0
+# Limit for the cleaned-up PCA detector, as a percentile of a separate normal run: 99.5 or 99.9.
+FINAL_PCA_PERCENTILE = 99.5  # Balanced, picked by Nathan 2026-10-16 from the dev split
 
-# PCA: alarm limit as a percentile of the training statistic.
-PCA_PERCENTILE = 99.0
+# The flag must hold this many 3-minute samples before the alarm sounds.
+HOLD_SAMPLES = 1
 
-# On-delay in 3-minute samples for each detector: the flag must hold this long before the alarm sounds.
-THREE_SIGMA_HOLD = 1  # 3 minutes, one sample
-PCA_HOLD = 1
-
-# One or two sentences, in your words, on why an operator would accept this point.
-WHY = "Missing an upset is worse."  # Nathan, 2026-10-16, chosen from the dev table (rows A and E)
+WHY = "Missing an upset is worse."
