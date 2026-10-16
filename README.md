@@ -12,7 +12,7 @@ I'm Nathan Ramos. I ran chemical process units for more than ten years at NOVA C
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/plant-fault-detection-dark.png">
-  <img alt="52 tags feed a PCA model, an alarm limit and a hold time before the board alarm. Setting the limit from a separate normal run, then raising it, cuts nuisance alarms from about 30 a shift to 4, then 2 or under 1, while still catching 7 of 8 clear faults within an hour." src="docs/plant-fault-detection.png">
+  <img alt="52 tags feed a PCA model, an alarm limit and a hold time before the board alarm. Setting the limit from a separate normal run, then raising it, cuts nuisance alarms from about 30 a shift to 4, then 2, while still catching 7 of 8 clear faults within an hour." src="docs/plant-fault-detection.png">
 </picture>
 
 ## The steps
